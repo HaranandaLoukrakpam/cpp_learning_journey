@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <string>
+#include <cmath>
 using namespace std;
 
 int main(){
@@ -17,8 +18,8 @@ int main(){
 	float difference2;
 	float product;
 	float division1;					//tough one since I haven't learn the if else syntax for C++
-	//float power1;
-	//float power2;
+	float power1;
+	float power2;
 
 	cout << "==== The  only binary calculator you need====" << endl;
 	cout << "---------------------------------------" << endl;
@@ -43,16 +44,16 @@ if (b==0){
 	division1 = a/b;
 	};
 
-	//power1 = a^b;
-	//power2 = b^a;
+	power1 = pow(a,b);
+	power2 = pow(b,a);
 	cout << "---------------------------------------" << endl;
 	cout << "The sum of the two number is: " << sum << endl;
 	cout << "The difference 1 a-b of the two number is: " << difference1 << endl;
 	cout << "The difference 2 b-a of the two number is: " << difference2 << endl;
 	cout << "The product a*b of the two number is: " << product << endl;
 	cout << "The division a/b of the two number is: " << division1 << endl;
-	//cout << "The power 1 a**b of the two number is: " << power1 << endl;
-	//cout << "The power 2 b**a of the two number is: " << power2 << endl;
+	cout << "The power 1 a**b of the two number is: " << power1 << endl;
+	cout << "The power 2 b**a of the two number is: " << power2 << endl;
 
 	return 0;
 
