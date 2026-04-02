@@ -9,7 +9,7 @@ int main(){
 	cin >> month;
 
 	switch(month){
-y		case 1:
+		case 1:
 			cout << "your birthday is January" << endl;
 			break;
 		case 2:
@@ -46,7 +46,8 @@ y		case 1:
 			cout << "your birthday is december" << endl;
 			break;
 		default:
-			cout << "Please enter only the number"<< endl
+			cout << "Please enter only the number"<< endl;
+			break;
 
 	}
 return 0;
