@@ -1,6 +1,7 @@
 # C++ Learning Journey
 
-This repository is a personal documentation of my journey learning **C++** from scratch.  
+This repository is a personal documentation of my journey learning **C++** from scratch. 
+I know the basic of languages so I'm focusing on the syntax and stuff for the C++ 
 I will add my daily practice files, small projects, and experiments here as I progress.
 I just want to learn the basics and start learning Data structure and algorithm to be able to start solving Leetcode and all that
 I'm learning from the sources of Documentation, YT-Brocode and Free code camp video linked as
